@@ -1,6 +1,5 @@
 /**
  * Request body input validation middleware for Inventory items.
- * Secures the 1-mark validation rubric allocation.
  */
 const validateInventoryItem = (req, res, next) => {
     const { name, category, quantity, price } = req.body;
