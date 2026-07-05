@@ -1,6 +1,5 @@
 /**
  * Centralized catch-all Express error handling middleware.
- * Secures the 1-mark centralized error handling rubric allocation.
  */
 const errorHandler = (err, req, res, next) => {
     console.error(`[Error Handler Exception]: ${err.stack}`);
