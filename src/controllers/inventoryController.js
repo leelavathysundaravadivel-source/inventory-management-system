@@ -2,7 +2,6 @@ const inventory = require('../model/inventoryData');
 
 /**
  * 1. Fetch All Items & Handle Query Operations (Search/Filter)
- * Secures full 2 marks for Query Filtering/Search logic.
  */
 const getAllItems = (req, res, next) => {
     try {
@@ -58,7 +57,6 @@ const getItemById = (req, res, next) => {
 
 /**
  * 3. Add Item to In-Memory Storage Matrix
- * Secures full 2 marks for working execution of Array handling operations.
  */
 const createItem = (req, res, next) => {
     try {
